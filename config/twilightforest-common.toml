@@ -43,7 +43,7 @@ skull_candles = false
 #For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
 ["Custom Hollow Hill Stalactites"]
 	#Blocks generating as stalactites in large hills only
-	largeHill = []
+	largeHill = ["mekanism:osmium_ore 0.7 8 1 8"]
 	#Blocks generating as stalactites in medium and large hills
 	mediumHill = []
 	#Blocks generating as stalactites in all hills
@@ -66,7 +66,7 @@ skull_candles = false
 	#If true, this will invert the above option from a blacklist to a whitelist.
 	flipIdList = false
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
-	disableUncrafting = false
+	disableUncrafting = true
 
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]

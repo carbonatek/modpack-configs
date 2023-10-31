@@ -30,15 +30,15 @@
 	"Enable Network Profiling" = false
 
 [categories]
-	Automation = true
+	Automation = false
 	Building = true
 	Management = true
-	Tools = true
+	Tools = false
 	Tweaks = true
 	World = true
 	Mobs = true
 	Client = true
-	Experimental = true
+	Experimental = false
 	Oddities = true
 
 [automation]
@@ -80,36 +80,36 @@
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
 
 [building]
-	"Wooden Posts" = true
+	"Wooden Posts" = false
 	"Vertical Slabs" = true
-	"Vertical Planks" = true
-	"Variant Ladders" = true
-	"Variant Furnaces" = true
-	"Variant Chests" = true
-	"Variant Bookshelves" = true
-	Thatch = true
-	"Sturdy Stone" = true
-	Stools = true
-	"Soul Sandstone" = true
-	Shingles = true
-	"Shear Vines" = true
-	Rope = true
-	"Oriental Palette" = true
-	"Nether Brick Fence Gate" = true
-	"More Stone Variants" = true
-	"More Potted Plants" = true
-	"More Brick Types" = true
-	Midori = true
-	"Leaf Carpet" = true
-	"Industrial Palette" = true
-	Hedges = true
-	Grate = true
-	"Gold Bars" = true
-	"Glass Item Frame" = true
-	"Framed Glass" = true
-	"Duskbound Blocks" = true
-	"Compressed Blocks" = true
-	"Celebratory Lamps" = true
+	"Vertical Planks" = false
+	"Variant Ladders" = false
+	"Variant Furnaces" = false
+	"Variant Chests" = false
+	"Variant Bookshelves" = false
+	Thatch = false
+	"Sturdy Stone" = false
+	Stools = false
+	"Soul Sandstone" = false
+	Shingles = false
+	"Shear Vines" = false
+	Rope = false
+	"Oriental Palette" = false
+	"Nether Brick Fence Gate" = false
+	"More Stone Variants" = false
+	"More Potted Plants" = false
+	"More Brick Types" = false
+	Midori = false
+	"Leaf Carpet" = false
+	"Industrial Palette" = false
+	Hedges = false
+	Grate = false
+	"Gold Bars" = false
+	"Glass Item Frame" = false
+	"Framed Glass" = false
+	"Duskbound Blocks" = false
+	"Compressed Blocks" = false
+	"Celebratory Lamps" = false
 
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -234,7 +234,7 @@
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
 	"Inventory Sorting" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
@@ -380,33 +380,33 @@
 			B = 0.0
 
 [tweaks]
-	"Villagers Follow Emeralds" = true
-	"Vexes Die With Their Masters" = true
-	"Utility Recipes" = true
-	"Snow Golem Player Heads" = true
+	"Villagers Follow Emeralds" = false
+	"Vexes Die With Their Masters" = false
+	"Utility Recipes" = false
+	"Snow Golem Player Heads" = false
 	"Simple Harvest" = true
 	"Sign Editing" = true
-	"Replace Scaffolding" = true
+	"Replace Scaffolding" = false
 	"Reacharound Placing" = true
-	"Poison Potato Usage" = true
-	"Pig Litters" = true
+	"Poison Potato Usage" = false
+	"Pig Litters" = false
 	"Pat The Dogs" = true
-	"Note Block Mob Sounds" = true
-	"More Banner Layers" = true
-	"Lock Rotation" = true
-	"Hoe Harvesting" = true
-	"Grab Chickens" = true
-	"Glass Shard" = true
+	"Note Block Mob Sounds" = false
+	"More Banner Layers" = false
+	"Lock Rotation" = false
+	"Hoe Harvesting" = false
+	"Grab Chickens" = false
+	"Glass Shard" = false
 	"Enhanced Ladders" = true
-	Emotes = true
-	"Dragon Scales" = true
+	Emotes = false
+	"Dragon Scales" = false
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
-	"Campfires Boost Elytra" = true
+	"Campfires Boost Elytra" = false
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
-	"Skull Pikes" = true
+	"Skull Pikes" = false
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -540,20 +540,20 @@
 		"Pike Range" = 5.0
 
 [world]
-	"Spiral Spires" = true
-	Permafrost = true
-	"No More Lava Pockets" = true
-	"New Stone Types" = true
-	"Nether Obsidian Spikes" = true
+	"Spiral Spires" = false
+	Permafrost = false
+	"No More Lava Pockets" = false
+	"New Stone Types" = false
+	"Nether Obsidian Spikes" = false
 	"Monster Box" = true
-	"Glimmering Weald" = true
-	"Fairy Rings" = true
-	Corundum = true
-	"Chorus Vegetation" = true
-	"Blossom Trees" = true
-	"Big Stone Clusters" = true
+	"Glimmering Weald" = false
+	"Fairy Rings" = false
+	Corundum = false
+	"Chorus Vegetation" = false
+	"Blossom Trees" = false
+	"Big Stone Clusters" = false
 	"Big Dungeon" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1181,7 +1181,7 @@
 		"Ignore Anti Overlap" = false
 
 [mobs]
-	Wraith = true
+	Wraith = false
 	Toretoise = true
 	Stonelings = true
 	Shiba = true
@@ -1437,7 +1437,7 @@
 	"Greener Grass" = true
 	"Chest Searching" = true
 	"Back Button Keybind" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true

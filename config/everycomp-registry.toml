@@ -9,6 +9,82 @@
 	#Makes dynamic assets that are generated depend on loaded resource packs. Turn off to make them just use vanilla assets
 	assets_depend_on_loaded_packs = true
 
+[wood_type]
+
+	[wood_type.minecraft]
+		oak = true
+		spruce = true
+		birch = true
+		jungle = true
+		acacia = true
+		dark_oak = true
+		crimson = true
+		warped = true
+
+	[wood_type.biomesoplenty]
+		fir = true
+		redwood = true
+		cherry = true
+		mahogany = true
+		jacaranda = true
+		palm = true
+		willow = true
+		dead = true
+		magic = true
+		umbran = true
+		hellbark = true
+
+	[wood_type.quark]
+		azalea = true
+		blossom = true
+
+	[wood_type.byg]
+		aspen = true
+		baobab = true
+		blue_enchanted = true
+		cherry = true
+		cika = true
+		cypress = true
+		ebony = true
+		fir = true
+		green_enchanted = true
+		holly = true
+		jacaranda = true
+		mahogany = true
+		mangrove = true
+		maple = true
+		pine = true
+		rainbow_eucalyptus = true
+		redwood = true
+		skyris = true
+		willow = true
+		witch_hazel = true
+		zelkova = true
+		sythian = true
+		palm = true
+		lament = true
+		bulbis = true
+		nightshade = true
+		ether = true
+		imparius = true
+
+	[wood_type.twilightforest]
+		twilight_oak = true
+		canopy = true
+		mangrove = true
+		dark = true
+		time = true
+		transformation = true
+		mining = true
+		sorting = true
+
+	[wood_type.upgrade_aquatic]
+		driftwood = true
+		river = true
+
+	[wood_type.valhelsia_structures]
+		lapidified_jungle = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -20,19 +96,6 @@
 		dark_oak = true
 		azalea = true
 		flowering_azalea = true
-
-	[leaves_type.twilightforest]
-		twilight_oak = true
-		canopy = true
-		mangrove = true
-		dark = true
-		time = true
-		transformation = true
-		mining = true
-		sorting = true
-		thorn = true
-		beanstalk = true
-		rainbow_oak = true
 
 	[leaves_type.biomesoplenty]
 		fir = true
@@ -53,9 +116,6 @@
 		maple = true
 		white_cherry = true
 		pink_cherry = true
-
-	[leaves_type.upgrade_aquatic]
-		river = true
 
 	[leaves_type.byg]
 		aspen = true
@@ -124,19 +184,7 @@
 		yellow_blossom = true
 		red_blossom = true
 
-[wood_type]
-
-	[wood_type.minecraft]
-		oak = true
-		spruce = true
-		birch = true
-		jungle = true
-		acacia = true
-		dark_oak = true
-		crimson = true
-		warped = true
-
-	[wood_type.twilightforest]
+	[leaves_type.twilightforest]
 		twilight_oak = true
 		canopy = true
 		mangrove = true
@@ -145,58 +193,10 @@
 		transformation = true
 		mining = true
 		sorting = true
+		thorn = true
+		beanstalk = true
+		rainbow_oak = true
 
-	[wood_type.biomesoplenty]
-		fir = true
-		redwood = true
-		cherry = true
-		mahogany = true
-		jacaranda = true
-		palm = true
-		willow = true
-		dead = true
-		magic = true
-		umbran = true
-		hellbark = true
-
-	[wood_type.upgrade_aquatic]
-		driftwood = true
+	[leaves_type.upgrade_aquatic]
 		river = true
-
-	[wood_type.quark]
-		blossom = true
-		azalea = true
-
-	[wood_type.byg]
-		aspen = true
-		baobab = true
-		blue_enchanted = true
-		cherry = true
-		cika = true
-		cypress = true
-		ebony = true
-		fir = true
-		green_enchanted = true
-		holly = true
-		jacaranda = true
-		mahogany = true
-		mangrove = true
-		maple = true
-		pine = true
-		rainbow_eucalyptus = true
-		redwood = true
-		skyris = true
-		willow = true
-		witch_hazel = true
-		zelkova = true
-		sythian = true
-		palm = true
-		lament = true
-		bulbis = true
-		nightshade = true
-		ether = true
-		imparius = true
-
-	[wood_type.valhelsia_structures]
-		lapidified_jungle = true
 

@@ -106,5 +106,5 @@
 	"Chance of Resistance effect applied on mob-spawn" = 0.01
 	"Chance of Haste effect applied on mob-spawn" = 0.01
 	"Chance of Fire Resistance effect applied on mob-spawn" = 0.01
-	"Chance of a mob being a Champion upon spawning" = 0.0
+	"Chance of a mob being a Champion upon spawning" = 1.0E-4
 
