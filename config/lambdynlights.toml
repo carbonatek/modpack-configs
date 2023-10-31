@@ -1,0 +1,6 @@
+
+[light_sources]
+	entities = true
+	block_entities = true
+	water_sensitive_check = true
+
