@@ -6,7 +6,7 @@
 	#Disable to make the anchor upgrade not do anything.
 	allowChunkloading = true
 	#Enable this to allow dragging items from JEI into the target slot of Digital Miner filters.
-	easyMinerFilters = false
+	easyMinerFilters = true
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
@@ -15,7 +15,7 @@
 	transmitterAlloyUpgrade = true
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 	#Range: > 1
-	maxUpgradeMultiplier = 10
+	maxUpgradeMultiplier = 20
 	#How much Boiler heat is immediately usable to convert water to steam.
 	boilerWaterConductivity = 0.7
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
@@ -25,7 +25,7 @@
 	fuelwoodTickMultiplier = 1
 	#How much heat energy is created from one Joule of regular energy in the Resistive Heater.
 	#Range: 0.0 ~ 1.0
-	resistiveHeaterEfficiency = 0.6
+	resistiveHeaterEfficiency = 0.25
 	#Amount of heat each Boiler heating element produces.
 	superheatingHeatTransfer = 1.6E7
 	#Peak processing rate for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
@@ -84,7 +84,7 @@
 		HydrogenEnergyDensity = "200"
 		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
 		#Range: > 1
-		EthyleneBurnTime = 40
+		EthyleneBurnTime = 25
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
 		maxEnergyPerSteam = "10"
 
@@ -94,11 +94,11 @@
 		radiationEnabled = true
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
-		chunkCheckRadius = 5
+		chunkCheckRadius = 25
 		#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
-		sourceDecayRate = 0.9995
+		sourceDecayRate = 0.999995
 		#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
-		targetDecayRate = 0.9995
+		targetDecayRate = 0.999995
 		#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 		#Range: 0.0 ~ 1.0
 		negativeEffectsMinSeverity = 0.1
@@ -115,7 +115,7 @@
 	#Digital Miner Settings
 	[general.digital_miner]
 		#Energy multiplier for using silk touch mode with the Digital Miner.
-		silkMultiplier = 12
+		silkMultiplier = 16
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
 		maxRadius = 32

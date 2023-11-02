@@ -2,37 +2,37 @@
 #Machine Energy Storage Config. This config is synced from server to client.
 [storage]
 	#Base energy storage (Joules).
-	enrichmentChamber = "20000"
+	enrichmentChamber = "40000"
 	#Base energy storage (Joules).
-	osmiumCompressor = "80000"
+	osmiumCompressor = "160000"
 	#Base energy storage (Joules).
-	combiner = "40000"
+	combiner = "80000"
 	#Base energy storage (Joules).
-	crusher = "20000"
+	crusher = "40000"
 	#Base energy storage (Joules).
-	metallurgicInfuser = "20000"
+	metallurgicInfuser = "40000"
 	#Base energy storage (Joules).
-	purificationChamber = "80000"
+	purificationChamber = "160000"
 	#Base energy storage (Joules).
-	energizedSmelter = "20000"
+	energizedSmelter = "40000"
 	#Base energy storage (Joules).
-	digitalMiner = "50000"
+	digitalMiner = "100000"
 	#Base energy storage (Joules).
-	electricPump = "40000"
+	electricPump = "70000"
 	#Base energy storage (Joules).
 	chargePad = "2048000"
 	#Base energy storage (Joules).
-	rotaryCondensentrator = "20000"
+	rotaryCondensentrator = "40000"
 	#Base energy storage (Joules).
-	oxidationChamber = "80000"
+	oxidationChamber = "160000"
 	#Base energy storage (Joules).
-	chemicalInfuser = "80000"
+	chemicalInfuser = "160000"
 	#Base energy storage (Joules).
 	chemicalInjectionChamber = "160000"
 	#Base energy storage (Joules).
 	electrolyticSeparator = "160000"
 	#Base energy storage (Joules).
-	precisionSawmill = "20000"
+	precisionSawmill = "40000"
 	#Base energy storage (Joules).
 	chemicalDissolutionChamber = "160000"
 	#Base energy storage (Joules).
@@ -58,9 +58,9 @@
 	#Base energy storage (Joules).
 	modificationStation = "40000"
 	#Base energy storage (Joules).
-	isotopicCentrifuge = "80000"
+	isotopicCentrifuge = "160000"
 	#Base energy storage (Joules).
-	nutritionalLiquifier = "40000"
+	nutritionalLiquifier = "160000"
 	#Base energy storage (Joules). Also defines max process rate.
 	antiprotonicNucleosynthesizer = "1000000000"
 	#Base energy storage (Joules).
