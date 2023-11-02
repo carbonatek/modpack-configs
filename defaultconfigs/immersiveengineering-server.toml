@@ -44,13 +44,13 @@
 		maxLength = 32
 		#The transfer rate of hv wire in IF/t
 		#Range: > 0
-		transferRate = 98304
+		transferRate = 262144
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
 		loss = 0.00625
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 24576
+		wireConnectorInput = 65536
 
 	[wires.rope]
 		#The maximum length of rope wires
@@ -136,10 +136,10 @@
 			storage = 40971520
 			#Maximum energy input (Flux/tick)
 			#Range: > 1
-			input = 32768
+			input = 65536
 			#Maximum energy output (Flux/tick)
 			#Range: > 1
-			output = 32768
+			output = 65536
 
 	[machines.external_heater]
 		#The Flux per tick consumed to add one heat to a furnace. Creates up to 4 heat in the startup time and then 1 heat per tick to keep it running
