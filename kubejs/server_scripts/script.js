@@ -4,10 +4,31 @@ settings.logAddedRecipes = true
 settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
+const ia = "immersive_aircraft:"
+const ie = "immersiveengineering:"
+const cr = "create:"
 
 onEvent('recipes', event => {
 	// ENGINEER'S DECOR
 	event.remove({output: ['engineersdecor:small_block_breaker', 'engineersdecor:small_lab_furnace', 'engineersdecor:small_electrical_furnace', 'engineersdecor:small_mineral_smelter', 'engineersdecor:small_freezer', 'engineersdecor:small_solar_panel', 'engineersdecor:small_milking_machine', 'engineersdecor:small_tree_cutter', 'engineersdecor:straight_pipe_valve', 'engineersdecor:straight_pipe_valve_redstone', 'engineersdecor:straight_pipe_valve_redstone_analog', 'engineersdecor:fluid_barrel', 'engineersdecor:small_fluid_funnel']})
+		
+	let bruh = [
+		'hull_reiforcement',
+		'steel_boiler',
+		'engine',
+		'nether_engine',
+		'propeller',
+		'enhanced_propeller',
+		'gyrodyne',
+		'sail',
+		'biplane',
+		'airship',
+
+	]
+
+	bruh.forEach(nya => {
+		event.remove({id: ia + nya})
+	})
 	
 	// IMMERSIVE ENGINEERING
 	event.remove({output: Item.of('immersiveengineering:dynamo')})
@@ -142,11 +163,6 @@ onEvent('recipes', event => {
 
 
 	// VZOOM VZOOM
-
-  const ia = "immersive_aircraft:"
-  const ie = "immersiveengineering:"
-  const cr = "create:"
-
   event.recipes.createMechanicalCrafting(
     Item.of(ia + 'hull_reinforcement', 4),
     [
@@ -156,6 +172,19 @@ onEvent('recipes', event => {
     ], {
       A: ie + 'storage_steel',
       B: ia + 'hull'
+    }
+  )
+
+  event.recipes.createMechanicalCrafting(
+    Item.of(ia + 'steel_boiler', 1),
+    [
+      'ABA',
+      'BCB',
+      'BBB'
+    ], {
+      A: cr + 'encased_fan', 
+      B: ie + 'storage_steel',
+      C: 'mekanism:fuelwood_heater'
     }
   )
 
