@@ -1,5 +1,4 @@
 // priority: 0
-
 settings.logAddedRecipes = true
 settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
@@ -47,7 +46,7 @@ onEvent('recipes', event => {
 	event.remove({output: ['mekanism:portable_qio_dashboard', 'mekanism:qio_drive_base', 'mekanism:qio_drive_hyper_dense', 'mekanism:qio_drive_time_dilating', 'mekanism:qio_drive_supermassive', 'mekanism:qio_dashboard', 'mekanism:qio_importer', 'mekanism:qio_exporter', 'mekanism:qio_redstone_adapter', 'mekanism:qio_drive_array']})
 	event.remove({output: ['mekanism:teleporter', 'mekanism:teleporter_frame', 'mekanism:portable_teleporter', 'mekanism:atomic_disassembler', 'mekanism:electric_bow', 'mekanism:flamethrower', 'mekanism:meka_tool', 'mekanism:scuba_mask', 'mekanism:scuba_gear', 'mekanism:mekasuit_helmet', 'mekanism:mekasuit_bodyarmor', 'mekanism:mekasuit_pants', 'mekanism:mekasuit_boots', 'mekanism:modification_station']})
 	event.remove({output: ['mekanism:module_base']})
-	event.remove({output: ['mekanismgenerators:wind_generator', 'mekanismgenerators:heat_generator', 'mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_logic_adapter',]})
+	event.remove({output: ['mekanismgenerators:wind_generator', 'mekanismgenerators:heat_generator', 'mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_logic_adapter', 'mekanismgenerators:laser_focus_matrix']})
 	event.remove({output: /mekanis.+?:module.+?unit/})
 	event.remove({output: ['mekanism:basic_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:ultimate_tier_installer']})
 	event.remove({output: /mekanism:.+?_factory/})
@@ -56,7 +55,7 @@ onEvent('recipes', event => {
 	// Remove Filter Upgrade, no longer needed if the only use for Heavy Water is gone.
 	event.remove({output: 'mekanism:upgrade_filter'})
 	// Fuels
-	event.remove({id: 'mekanismgenerators:separating/heavy_water'})
+	event.remove({id: 'mekanismgenerators:separator/heavy_water'})
 	event.remove({id: 'mekanismgenerators:rotary/deuterium'})
 	event.remove({id: 'mekanismgenerators:chemical_infusing/fusion_fuel'})
 	event.remove({id: 'mekanismgenerators:rotary/fusion_fuel'})
